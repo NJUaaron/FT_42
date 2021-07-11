@@ -1,0 +1,212 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        "@babel/preset-flow",
+        "@babel/preset-react",
+        "@babel/preset-env"
+      ],
+      "plugins": [
+        "rewire",
+        "dynamic-import-node",
+        [
+          "module-resolver",
+          {
+            "root": [
+              "./app"
+            ],
+            "alias": {
+              "@components": "./app/js/components",
+              "@common": "./app/js/common",
+              "@styled": "./app/js/components/styled",
+              "@utils": "./app/js/utils",
+              "@blockstack/ui": "./app/js/components/ui",
+              "@ui/components": "./app/js/components/ui/components",
+              "@ui/containers": "./app/js/components/ui/containers",
+              "@ui/common": "./app/js/components/ui/common",
+              "log4js": "./app/js/logger.js",
+              "@images": "./app/images"
+            }
+          }
+        ],
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-syntax-import-meta",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-json-strings",
+        [
+          "@babel/plugin-proposal-decorators",
+          {
+            "legacy": true
+          }
+        ],
+        "@babel/plugin-proposal-function-sent",
+        "@babel/plugin-proposal-export-namespace-from",
+        "@babel/plugin-proposal-numeric-separator",
+        "@babel/plugin-proposal-throw-expressions",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-proposal-logical-assignment-operators",
+        "@babel/plugin-proposal-optional-chaining",
+        [
+          "@babel/plugin-proposal-pipeline-operator",
+          {
+            "proposal": "minimal"
+          }
+        ],
+        "@babel/plugin-proposal-nullish-coalescing-operator",
+        "@babel/plugin-proposal-do-expressions",
+        "@babel/plugin-proposal-function-bind"
+      ]
+    },
+    "development": {
+      "presets": [
+        "@babel/preset-flow",
+        "@babel/preset-react",
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "useBuiltIns": "usage",
+            "targets": {
+              "browsers": [
+                "Chrome >= 60",
+                "Safari >= 10.1",
+                "iOS >= 10.3",
+                "Firefox >= 54",
+                "Edge >= 15"
+              ]
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        "react-hot-loader/babel",
+        "react-loadable/babel",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-transform-async-to-generator",
+        "@babel/plugin-transform-react-jsx",
+        "babel-plugin-styled-components",
+        "lodash",
+        [
+          "module-resolver",
+          {
+            "root": [
+              "./app"
+            ],
+            "alias": {
+              "@components": "./app/js/components",
+              "@common": "./app/js/common",
+              "@styled": "./app/js/components/styled",
+              "@utils": "./app/js/utils",
+              "@blockstack/ui": "./app/js/components/ui",
+              "@ui/components": "./app/js/components/ui/components",
+              "@ui/containers": "./app/js/components/ui/containers",
+              "@ui/common": "./app/js/components/ui/common",
+              "log4js": "./app/js/logger.js",
+              "@images": "./app/images"
+            }
+          }
+        ],
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-syntax-import-meta",
+        "@babel/plugin-proposal-json-strings",
+        [
+          "@babel/plugin-proposal-decorators",
+          {
+            "legacy": true
+          }
+        ],
+        "@babel/plugin-proposal-function-sent",
+        "@babel/plugin-proposal-export-namespace-from",
+        "@babel/plugin-proposal-numeric-separator",
+        "@babel/plugin-proposal-throw-expressions",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-proposal-logical-assignment-operators",
+        "@babel/plugin-proposal-optional-chaining",
+        [
+          "@babel/plugin-proposal-pipeline-operator",
+          {
+            "proposal": "minimal"
+          }
+        ],
+        "@babel/plugin-proposal-nullish-coalescing-operator",
+        "@babel/plugin-proposal-do-expressions",
+        "@babel/plugin-proposal-function-bind"
+      ]
+    },
+    "production": {
+      "presets": [
+        "@babel/preset-flow",
+        "@babel/preset-react",
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "useBuiltIns": "usage",
+            "targets": {
+              "browsers": [
+                "Chrome >= 60",
+                "Safari >= 10.1",
+                "iOS >= 10.3",
+                "Firefox >= 54",
+                "Edge >= 15"
+              ]
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        "react-loadable/babel",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-transform-async-to-generator",
+        "@babel/plugin-transform-react-jsx",
+        "babel-plugin-styled-components",
+        "lodash",
+        [
+          "module-resolver",
+          {
+            "root": [
+              "./app"
+            ],
+            "alias": {
+              "@components": "./app/js/components",
+              "@common": "./app/js/common",
+              "@styled": "./app/js/components/styled",
+              "@utils": "./app/js/utils",
+              "@blockstack/ui": "./app/js/components/ui",
+              "@ui/components": "./app/js/components/ui/components",
+              "@ui/containers": "./app/js/components/ui/containers",
+              "@ui/common": "./app/js/components/ui/common",
+              "log4js": "./app/js/logger.js",
+              "@images": "./app/images"
+            }
+          }
+        ],
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-syntax-import-meta",
+        "@babel/plugin-proposal-json-strings",
+        [
+          "@babel/plugin-proposal-decorators",
+          {
+            "legacy": true
+          }
+        ],
+        "@babel/plugin-proposal-function-sent",
+        "@babel/plugin-proposal-export-namespace-from",
+        "@babel/plugin-proposal-numeric-separator",
+        "@babel/plugin-proposal-throw-expressions",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-proposal-logical-assignment-operators",
+        "@babel/plugin-proposal-optional-chaining",
+        [
+          "@babel/plugin-proposal-pipeline-operator",
+          {
+            "proposal": "minimal"
+          }
+        ],
+        "@babel/plugin-proposal-nullish-coalescing-operator",
+        "@babel/plugin-proposal-do-expressions",
+        "@babel/plugin-proposal-function-bind"
+      ]
+    }
+  }
+}

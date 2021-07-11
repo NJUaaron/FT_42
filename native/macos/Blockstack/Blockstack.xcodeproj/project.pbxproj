@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0269336F851483B57BC4EF28 /* Pods_BlockstackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DB2C2D533E703048FE31F8 /* Pods_BlockstackTests.framework */; };
+		03D84AF47B48C8D13A44AB1F /* Pods_BlockstackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151BBEEEC2F6FF783F2FB820 /* Pods_BlockstackUITests.framework */; };
+		4612AE971E87E20600AC866A /* export.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4612AE961E87E20600AC866A /* export.plist */; };
+		464C43A81E9A5B2500533529 /* PortalLogServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C43A71E9A5B2500533529 /* PortalLogServer.swift */; };
+		46AB7B3C1E632F08004DACD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB7B3B1E632F08004DACD8 /* AppDelegate.swift */; };
+		46AB7B3E1E632F08004DACD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AB7B3D1E632F08004DACD8 /* Assets.xcassets */; };
+		46AB7B411E632F08004DACD8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AB7B3F1E632F08004DACD8 /* MainMenu.xib */; };
+		46AB7B4C1E632F08004DACD8 /* BlockstackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB7B4B1E632F08004DACD8 /* BlockstackTests.swift */; };
+		46AB7B571E632F09004DACD8 /* BlockstackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB7B561E632F09004DACD8 /* BlockstackUITests.swift */; };
+		46CA5EA51E81BEDD00CF6E38 /* browser in Resources */ = {isa = PBXBuildFile; fileRef = 46CA5EA41E81BEDC00CF6E38 /* browser */; };
+		6288657A1F3FFC900008B17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628865791F3FFC900008B17F /* AppDelegate.swift */; };
+		6288657E1F3FFC900008B17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6288657D1F3FFC900008B17F /* Assets.xcassets */; };
+		628865811F3FFC900008B17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6288657F1F3FFC900008B17F /* Main.storyboard */; };
+		628865861F3FFD2C0008B17F /* BlockstackLauncher.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 628865771F3FFC900008B17F /* BlockstackLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		62F5E53C1F3F9316003E139B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5E53A1F3F92B3003E139B /* ServiceManagement.framework */; };
+		8F4DA57121FBAF380059236E /* server in Resources */ = {isa = PBXBuildFile; fileRef = 8F4DA57021FBAF380059236E /* server */; };
+		F9416162CBC2093412EF41D3 /* Pods_Blockstack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F85987ACADDDC03CDA8F87 /* Pods_Blockstack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46AB7B481E632F08004DACD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AB7B301E632F08004DACD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46AB7B371E632F08004DACD8;
+			remoteInfo = Blockstack;
+		};
+		46AB7B531E632F09004DACD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AB7B301E632F08004DACD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46AB7B371E632F08004DACD8;
+			remoteInfo = Blockstack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62F5E5381F3F9240003E139B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				628865861F3FFD2C0008B17F /* BlockstackLauncher.app in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		151BBEEEC2F6FF783F2FB820 /* Pods_BlockstackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockstackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253C1468E9D7BB9D0C6ABA2E /* Pods-BlockstackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockstackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockstackTests/Pods-BlockstackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4612AE961E87E20600AC866A /* export.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = export.plist; path = ../export.plist; sourceTree = "<group>"; };
+		464C43A71E9A5B2500533529 /* PortalLogServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalLogServer.swift; sourceTree = "<group>"; };
+		46AB7B381E632F08004DACD8 /* Blockstack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockstack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AB7B3B1E632F08004DACD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46AB7B3D1E632F08004DACD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46AB7B401E632F08004DACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46AB7B421E632F08004DACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AB7B471E632F08004DACD8 /* BlockstackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockstackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AB7B4B1E632F08004DACD8 /* BlockstackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockstackTests.swift; sourceTree = "<group>"; };
+		46AB7B4D1E632F08004DACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AB7B521E632F09004DACD8 /* BlockstackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockstackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AB7B561E632F09004DACD8 /* BlockstackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockstackUITests.swift; sourceTree = "<group>"; };
+		46AB7B581E632F09004DACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CA5EA41E81BEDC00CF6E38 /* browser */ = {isa = PBXFileReference; lastKnownFileType = folder; name = browser; path = Blockstack/browser; sourceTree = "<group>"; };
+		56C598B8DFB8E2A47A0332D8 /* Pods-Blockstack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blockstack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blockstack/Pods-Blockstack.debug.xcconfig"; sourceTree = "<group>"; };
+		6163A5BF738ADBF9E136D47B /* Pods-BlockstackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockstackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockstackUITests/Pods-BlockstackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		628865771F3FFC900008B17F /* BlockstackLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockstackLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		628865791F3FFC900008B17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6288657D1F3FFC900008B17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		628865801F3FFC900008B17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		628865821F3FFC900008B17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F5E53A1F3F92B3003E139B /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		62F5E53D1F3FA8B3003E139B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		691A869DEA8D7683DE5BE4A0 /* Pods-Blockstack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blockstack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blockstack/Pods-Blockstack.release.xcconfig"; sourceTree = "<group>"; };
+		7F565C3ED6B9C73792D704DC /* Pods-BlockstackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockstackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockstackUITests/Pods-BlockstackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86F85987ACADDDC03CDA8F87 /* Pods_Blockstack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blockstack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4DA57021FBAF380059236E /* server */ = {isa = PBXFileReference; lastKnownFileType = folder; name = server; path = Blockstack/server; sourceTree = "<group>"; };
+		B8C5A3A739A7149580AFBD43 /* Pods-BlockstackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockstackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockstackTests/Pods-BlockstackTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8DB2C2D533E703048FE31F8 /* Pods_BlockstackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockstackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46AB7B351E632F08004DACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F5E53C1F3F9316003E139B /* ServiceManagement.framework in Frameworks */,
+				F9416162CBC2093412EF41D3 /* Pods_Blockstack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB7B441E632F08004DACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0269336F851483B57BC4EF28 /* Pods_BlockstackTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB7B4F1E632F09004DACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D84AF47B48C8D13A44AB1F /* Pods_BlockstackUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628865741F3FFC900008B17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AB7B2F1E632F08004DACD8 = {
+			isa = PBXGroup;
+			children = (
+				46AB7B681E643643004DACD8 /* Binaries */,
+				46AB7B3A1E632F08004DACD8 /* Blockstack */,
+				46AB7B4A1E632F08004DACD8 /* BlockstackTests */,
+				46AB7B551E632F09004DACD8 /* BlockstackUITests */,
+				628865781F3FFC900008B17F /* BlockstackLauncher */,
+				46AB7B391E632F08004DACD8 /* Products */,
+				BEB2669B7761B6031E1BA61D /* Pods */,
+				5AC152FB83D573F6D1275A12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46AB7B391E632F08004DACD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46AB7B381E632F08004DACD8 /* Blockstack.app */,
+				46AB7B471E632F08004DACD8 /* BlockstackTests.xctest */,
+				46AB7B521E632F09004DACD8 /* BlockstackUITests.xctest */,
+				628865771F3FFC900008B17F /* BlockstackLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46AB7B3A1E632F08004DACD8 /* Blockstack */ = {
+			isa = PBXGroup;
+			children = (
+				464C43A71E9A5B2500533529 /* PortalLogServer.swift */,
+				4612AE961E87E20600AC866A /* export.plist */,
+				46AB7B3B1E632F08004DACD8 /* AppDelegate.swift */,
+				46AB7B3D1E632F08004DACD8 /* Assets.xcassets */,
+				46AB7B3F1E632F08004DACD8 /* MainMenu.xib */,
+				46AB7B421E632F08004DACD8 /* Info.plist */,
+			);
+			path = Blockstack;
+			sourceTree = "<group>";
+		};
+		46AB7B4A1E632F08004DACD8 /* BlockstackTests */ = {
+			isa = PBXGroup;
+			children = (
+				46AB7B4B1E632F08004DACD8 /* BlockstackTests.swift */,
+				46AB7B4D1E632F08004DACD8 /* Info.plist */,
+			);
+			path = BlockstackTests;
+			sourceTree = "<group>";
+		};
+		46AB7B551E632F09004DACD8 /* BlockstackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46AB7B561E632F09004DACD8 /* BlockstackUITests.swift */,
+				46AB7B581E632F09004DACD8 /* Info.plist */,
+			);
+			path = BlockstackUITests;
+			sourceTree = "<group>";
+		};
+		46AB7B681E643643004DACD8 /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				8F4DA57021FBAF380059236E /* server */,
+				46CA5EA41E81BEDC00CF6E38 /* browser */,
+			);
+			name = Binaries;
+			sourceTree = "<group>";
+		};
+		5AC152FB83D573F6D1275A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F5E53D1F3FA8B3003E139B /* Foundation.framework */,
+				62F5E53A1F3F92B3003E139B /* ServiceManagement.framework */,
+				86F85987ACADDDC03CDA8F87 /* Pods_Blockstack.framework */,
+				D8DB2C2D533E703048FE31F8 /* Pods_BlockstackTests.framework */,
+				151BBEEEC2F6FF783F2FB820 /* Pods_BlockstackUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		628865781F3FFC900008B17F /* BlockstackLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				628865791F3FFC900008B17F /* AppDelegate.swift */,
+				6288657D1F3FFC900008B17F /* Assets.xcassets */,
+				6288657F1F3FFC900008B17F /* Main.storyboard */,
+				628865821F3FFC900008B17F /* Info.plist */,
+			);
+			path = BlockstackLauncher;
+			sourceTree = "<group>";
+		};
+		BEB2669B7761B6031E1BA61D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C598B8DFB8E2A47A0332D8 /* Pods-Blockstack.debug.xcconfig */,
+				691A869DEA8D7683DE5BE4A0 /* Pods-Blockstack.release.xcconfig */,
+				253C1468E9D7BB9D0C6ABA2E /* Pods-BlockstackTests.debug.xcconfig */,
+				B8C5A3A739A7149580AFBD43 /* Pods-BlockstackTests.release.xcconfig */,
+				6163A5BF738ADBF9E136D47B /* Pods-BlockstackUITests.debug.xcconfig */,
+				7F565C3ED6B9C73792D704DC /* Pods-BlockstackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46AB7B371E632F08004DACD8 /* Blockstack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AB7B5B1E632F09004DACD8 /* Build configuration list for PBXNativeTarget "Blockstack" */;
+			buildPhases = (
+				D6A7A922C865FDC91D8A8FF0 /* [CP] Check Pods Manifest.lock */,
+				46AB7B341E632F08004DACD8 /* Sources */,
+				46AB7B351E632F08004DACD8 /* Frameworks */,
+				46AB7B361E632F08004DACD8 /* Resources */,
+				3F653B3BD30BBAA8105C6308 /* [CP] Embed Pods Frameworks */,
+				976CCAB0FC0607FF42EE5980 /* [CP] Copy Pods Resources */,
+				62F5E5381F3F9240003E139B /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blockstack;
+			productName = Blockstack;
+			productReference = 46AB7B381E632F08004DACD8 /* Blockstack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46AB7B461E632F08004DACD8 /* BlockstackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AB7B5E1E632F09004DACD8 /* Build configuration list for PBXNativeTarget "BlockstackTests" */;
+			buildPhases = (
+				EA97A3D8B66746843F5A5760 /* [CP] Check Pods Manifest.lock */,
+				46AB7B431E632F08004DACD8 /* Sources */,
+				46AB7B441E632F08004DACD8 /* Frameworks */,
+				46AB7B451E632F08004DACD8 /* Resources */,
+				BC409F8F56768A1C9AFCD264 /* [CP] Embed Pods Frameworks */,
+				C447376235B4502F3B22FD77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46AB7B491E632F08004DACD8 /* PBXTargetDependency */,
+			);
+			name = BlockstackTests;
+			productName = BlockstackTests;
+			productReference = 46AB7B471E632F08004DACD8 /* BlockstackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46AB7B511E632F09004DACD8 /* BlockstackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AB7B611E632F09004DACD8 /* Build configuration list for PBXNativeTarget "BlockstackUITests" */;
+			buildPhases = (
+				72234C7BDD63B46E3965846E /* [CP] Check Pods Manifest.lock */,
+				46AB7B4E1E632F09004DACD8 /* Sources */,
+				46AB7B4F1E632F09004DACD8 /* Frameworks */,
+				46AB7B501E632F09004DACD8 /* Resources */,
+				384B8BDE6F5F3E1F546874C0 /* [CP] Embed Pods Frameworks */,
+				EB34DD377A93267BE4037565 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46AB7B541E632F09004DACD8 /* PBXTargetDependency */,
+			);
+			name = BlockstackUITests;
+			productName = BlockstackUITests;
+			productReference = 46AB7B521E632F09004DACD8 /* BlockstackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		628865761F3FFC900008B17F /* BlockstackLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628865831F3FFC900008B17F /* Build configuration list for PBXNativeTarget "BlockstackLauncher" */;
+			buildPhases = (
+				628865731F3FFC900008B17F /* Sources */,
+				628865741F3FFC900008B17F /* Frameworks */,
+				628865751F3FFC900008B17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockstackLauncher;
+			productName = BlockstackLauncher;
+			productReference = 628865771F3FFC900008B17F /* BlockstackLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46AB7B301E632F08004DACD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Blockstack;
+				TargetAttributes = {
+					46AB7B371E632F08004DACD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					46AB7B461E632F08004DACD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWQ2SUHV2E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46AB7B371E632F08004DACD8;
+					};
+					46AB7B511E632F09004DACD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWQ2SUHV2E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46AB7B371E632F08004DACD8;
+					};
+					628865761F3FFC900008B17F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 46AB7B331E632F08004DACD8 /* Build configuration list for PBXProject "Blockstack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46AB7B2F1E632F08004DACD8;
+			productRefGroup = 46AB7B391E632F08004DACD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46AB7B371E632F08004DACD8 /* Blockstack */,
+				46AB7B461E632F08004DACD8 /* BlockstackTests */,
+				46AB7B511E632F09004DACD8 /* BlockstackUITests */,
+				628865761F3FFC900008B17F /* BlockstackLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46AB7B361E632F08004DACD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AB7B3E1E632F08004DACD8 /* Assets.xcassets in Resources */,
+				46CA5EA51E81BEDD00CF6E38 /* browser in Resources */,
+				8F4DA57121FBAF380059236E /* server in Resources */,
+				46AB7B411E632F08004DACD8 /* MainMenu.xib in Resources */,
+				4612AE971E87E20600AC866A /* export.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB7B451E632F08004DACD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB7B501E632F09004DACD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628865751F3FFC900008B17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6288657E1F3FFC900008B17F /* Assets.xcassets in Resources */,
+				628865811F3FFC900008B17F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		384B8BDE6F5F3E1F546874C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockstackUITests/Pods-BlockstackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F653B3BD30BBAA8105C6308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blockstack/Pods-Blockstack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72234C7BDD63B46E3965846E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		976CCAB0FC0607FF42EE5980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blockstack/Pods-Blockstack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC409F8F56768A1C9AFCD264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockstackTests/Pods-BlockstackTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C447376235B4502F3B22FD77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockstackTests/Pods-BlockstackTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A7A922C865FDC91D8A8FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA97A3D8B66746843F5A5760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB34DD377A93267BE4037565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockstackUITests/Pods-BlockstackUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46AB7B341E632F08004DACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AB7B3C1E632F08004DACD8 /* AppDelegate.swift in Sources */,
+				464C43A81E9A5B2500533529 /* PortalLogServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB7B431E632F08004DACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AB7B4C1E632F08004DACD8 /* BlockstackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AB7B4E1E632F09004DACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AB7B571E632F09004DACD8 /* BlockstackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628865731F3FFC900008B17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6288657A1F3FFC900008B17F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46AB7B491E632F08004DACD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46AB7B371E632F08004DACD8 /* Blockstack */;
+			targetProxy = 46AB7B481E632F08004DACD8 /* PBXContainerItemProxy */;
+		};
+		46AB7B541E632F09004DACD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46AB7B371E632F08004DACD8 /* Blockstack */;
+			targetProxy = 46AB7B531E632F09004DACD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46AB7B3F1E632F08004DACD8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46AB7B401E632F08004DACD8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6288657F1F3FFC900008B17F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628865801F3FFC900008B17F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46AB7B591E632F09004DACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46AB7B5A1E632F09004DACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Blockstack PBC (8AGC2Z4ZX9)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		46AB7B5C1E632F09004DACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C598B8DFB8E2A47A0332D8 /* Pods-Blockstack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Blockstack PBC (8AGC2Z4ZX9)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Blockstack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46AB7B5D1E632F09004DACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691A869DEA8D7683DE5BE4A0 /* Pods-Blockstack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Blockstack PBC (8AGC2Z4ZX9)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Blockstack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46AB7B5F1E632F09004DACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253C1468E9D7BB9D0C6ABA2E /* Pods-BlockstackTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CWQ2SUHV2E;
+				INFOPLIST_FILE = BlockstackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.mac.BlockstackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blockstack.app/Contents/MacOS/Blockstack";
+			};
+			name = Debug;
+		};
+		46AB7B601E632F09004DACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C5A3A739A7149580AFBD43 /* Pods-BlockstackTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CWQ2SUHV2E;
+				INFOPLIST_FILE = BlockstackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.mac.BlockstackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blockstack.app/Contents/MacOS/Blockstack";
+			};
+			name = Release;
+		};
+		46AB7B621E632F09004DACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6163A5BF738ADBF9E136D47B /* Pods-BlockstackUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CWQ2SUHV2E;
+				INFOPLIST_FILE = BlockstackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.mac.BlockstackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Blockstack;
+			};
+			name = Debug;
+		};
+		46AB7B631E632F09004DACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F565C3ED6B9C73792D704DC /* Pods-BlockstackUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CWQ2SUHV2E;
+				INFOPLIST_FILE = BlockstackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.mac.BlockstackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Blockstack;
+			};
+			name = Release;
+		};
+		628865841F3FFC900008B17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Blockstack PBC (8AGC2Z4ZX9)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BlockstackLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.macLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		628865851F3FFC900008B17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Blockstack PBC (8AGC2Z4ZX9)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BlockstackLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.blockstack.macLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46AB7B331E632F08004DACD8 /* Build configuration list for PBXProject "Blockstack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AB7B591E632F09004DACD8 /* Debug */,
+				46AB7B5A1E632F09004DACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46AB7B5B1E632F09004DACD8 /* Build configuration list for PBXNativeTarget "Blockstack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AB7B5C1E632F09004DACD8 /* Debug */,
+				46AB7B5D1E632F09004DACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46AB7B5E1E632F09004DACD8 /* Build configuration list for PBXNativeTarget "BlockstackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AB7B5F1E632F09004DACD8 /* Debug */,
+				46AB7B601E632F09004DACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46AB7B611E632F09004DACD8 /* Build configuration list for PBXNativeTarget "BlockstackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AB7B621E632F09004DACD8 /* Debug */,
+				46AB7B631E632F09004DACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628865831F3FFC900008B17F /* Build configuration list for PBXNativeTarget "BlockstackLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628865841F3FFC900008B17F /* Debug */,
+				628865851F3FFC900008B17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46AB7B301E632F08004DACD8 /* Project object */;
+}

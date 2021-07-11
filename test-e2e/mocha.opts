@@ -1,0 +1,5 @@
+--require mocha-steps
+--timeout 60000
+--full-trace
+# --fgrep Win10-Chrome
+# --fgrep firefox

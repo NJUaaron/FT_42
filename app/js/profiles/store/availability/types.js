@@ -1,0 +1,7 @@
+export const CHECKING_NAME_AVAILABILITY = 'profiles/availability/CHECKING_NAME_AVAILABILITY'
+export const NAME_AVAILABLE = 'profiles/availability/NAME_AVAILABLE'
+export const NAME_UNAVAILABLE = 'profiles/availability/NAME_UNAVAILABLE'
+export const NAME_AVAILABILITY_ERROR = 'profiles/availability/NAME_AVAILABILITY_ERROR'
+export const CHECKING_NAME_PRICE = 'profiles/availability/CHECKING_NAME_PRICE'
+export const NAME_PRICE = 'profiles/availability/NAME_PRICE'
+export const NAME_PRICE_ERROR = 'profiles/availability/NAME_PRICE_ERROR'
