@@ -80,7 +80,7 @@ for (const testEnvironment of getTestEnvironments()) {
         // close the alert since it can eclipse the continuation button..
         const el = await driver.el(By.xpath('//*[text()="Username Registration Failed"]/parent::div/following-sibling::div/descendant::span'), el => el.click());
         await driver.wait(until.elementIsNotVisible(el));
-      } catch { }
+      } catch (err) { }
     });
 
     step('acknowledge saving recovery key phrase', async () => {
@@ -139,7 +139,7 @@ for (const testEnvironment of getTestEnvironments()) {
           });
         }
       }
-      catch { }
+      catch (err) { }
     });
 
     after(() => driver.quit());
